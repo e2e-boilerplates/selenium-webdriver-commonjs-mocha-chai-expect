@@ -20,5 +20,5 @@ jobs:
         CI: true
     - name: npm install
       run: |
-        echo process.env
+        npm run test
         
