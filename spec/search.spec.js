@@ -3,6 +3,8 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 
 require("chromedriver");
 
+console.log(process.env);
+
 describe("google Search", () => {
   let browser;
 
