@@ -3,7 +3,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 
 require("chromedriver");
 
-console.log(process.env);
+console.log(!!process.env.GITHUB_ACTIONS);
 
 describe("google Search", () => {
   let browser;
