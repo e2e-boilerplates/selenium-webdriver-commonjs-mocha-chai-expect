@@ -3,7 +3,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 
 require("chromedriver");
 
-console.log(!!process.env.GITHUB_ACTIONS);
+console.log(process.env.GITHUB_ACTIONS !== null ? "exist" : "not exist");
 
 describe("google Search", () => {
   let browser;
