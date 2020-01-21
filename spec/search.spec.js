@@ -1,15 +1,22 @@
-const { expect } = require("chai");
 const { Builder, By, Key, until } = require("selenium-webdriver");
+const chrome = require("selenium-webdriver/chrome");
+const { expect } = require("chai");
 
 require("chromedriver");
 
-console.log(process.env.GITHUB_ACTIONS !== null ? "exist" : "not exist");
+const baseOptions = new chrome.Options();
+const chromeOptions = process.env.GITHUB_ACTIONS
+  ? baseOptions.headless()
+  : baseOptions;
 
 describe("google Search", () => {
   let browser;
 
   before(async () => {
-    browser = await new Builder().forBrowser("chrome").build();
+    browser = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
     browser.get("https://www.google.com");
   });
 
