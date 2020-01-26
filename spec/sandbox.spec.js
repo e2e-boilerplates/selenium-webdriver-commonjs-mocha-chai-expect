@@ -10,7 +10,8 @@ const chromeOptions = process.env.GITHUB_ACTIONS ? options.headless() : options;
 describe("Sandbox", () => {
   let browser;
 
-  before(async () => {
+  before(async function fn() {
+    this.timeout(20000);
     browser = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
