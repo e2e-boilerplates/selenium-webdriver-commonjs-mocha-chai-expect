@@ -1,7 +1,7 @@
 {
   "name": "selenium-webdriver-commonjs-mocha-chai",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using commonjs, mocha and chai.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, MochaJS and Chai.",
   "main": ".mocha.js",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
