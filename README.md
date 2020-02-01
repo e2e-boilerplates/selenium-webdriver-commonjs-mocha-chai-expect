@@ -1,4 +1,4 @@
-# selenium-webdriver (commonjs, mocha, chai)
+# selenium-webdriver (CommonJS, MochaJS and Chai)
 
 [![GitHub Actions status | e2e-boilerplates/selenium-webdriver-commonjs-mocha-chai](https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-mocha-chai/workflows/selenium-webdriver-commonjs-mocha-chai/badge.svg)](https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-mocha-chai/actions?workflow=selenium-webdriver-commonjs-mocha-chai)
 
