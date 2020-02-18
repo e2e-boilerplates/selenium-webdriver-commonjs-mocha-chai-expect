@@ -1,11 +1,11 @@
 {
-  "name": "selenium-webdriver-commonjs-mocha-chai",
+  "name": "selenium-webdriver-commonjs-mocha-chai-expect",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, MochaJS and Chai.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, MochaJS, Chai and Expect.",
   "main": ".mocha.js",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx mocha spec/sandbox.spec.js"
+    "test": "npx mocha spec/*.spec.js"
   },
   "keywords": [
     "selenium-webdriver",
@@ -13,7 +13,9 @@
     "mocha",
     "chai",
     "boilerplate",
-    "examples"
+    "examples",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",

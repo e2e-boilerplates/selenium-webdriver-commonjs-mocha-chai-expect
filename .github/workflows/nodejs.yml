@@ -1,4 +1,4 @@
-name: selenium-webdriver-commonjs-mocha-chai
+name: selenium-webdriver-commonjs-mocha-chai-expect
 
 on:
   push:
