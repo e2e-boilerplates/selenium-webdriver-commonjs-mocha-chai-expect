@@ -1,24 +1,6 @@
 {
-  "name": "selenium-webdriver-commonjs-mocha-chai-expect",
-  "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, MochaJS, Chai and Expect.",
-  "main": ".mocha.js",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx mocha spec/*.spec.js"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "commonjs",
-    "mocha",
-    "chai",
-    "boilerplate",
-    "examples",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, MochaJS, Chai and Expect.",
   "devDependencies": {
     "chai": "4.2.0",
     "chromedriver": "79.0.3",
@@ -26,9 +8,36 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "mocha": "7.0.1",
     "prettier": "1.19.1",
     "selenium-webdriver": "4.0.0-alpha.5"
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "mocha",
+    "selenium",
+    "selenium-webdriver",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "main": ".mocha.js",
+  "name": "selenium-webdriver-commonjs-mocha-chai-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-mocha-chai-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx mocha spec/*.spec.js"
+  },
+  "version": "1.0.0"
 }
