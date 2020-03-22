@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-mocha-chai-expect/issues"
   },
@@ -18,9 +18,14 @@
   },
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-mocha-chai-expect#readme",
   "keywords": [
+    "boilerplate",
     "chai",
     "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "mocha",
     "selenium",
     "selenium-webdriver"
