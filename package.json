@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-=======
-  "author": "Girma Nigusse <xgirma@gmail.com>",
->>>>>>> 2dadca9964e586ee6d1fa9ec75695437b82e2371
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-mocha-chai-expect/issues"
   },
