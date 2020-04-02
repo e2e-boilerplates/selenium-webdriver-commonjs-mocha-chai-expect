@@ -22,6 +22,11 @@
     "pretty-quick": "2.0.1"
   },
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-mocha-chai-expect#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "keywords": [
     "boilerplate",
     "chai",
@@ -36,6 +41,11 @@
     "selenium-webdriver"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "name": "selenium-webdriver-commonjs-mocha-chai-expect",
   "repository": {
     "type": "git",
